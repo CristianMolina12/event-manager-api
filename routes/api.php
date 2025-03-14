@@ -14,4 +14,4 @@ Route::get('/user', function (Request $request) {
 
 Route::apiResource('events', EventController::class);
 Route::get('/external-reservations', [ExternalApiController::class, 'getReservations']); //Ruta para el consumo del api de cristian
-Route::get('/external-userservice', [ExternalApiController::class, 'getUserservices']); //Ruta para el consumo del api de pablo
+Route::get('/external-userservice', [ExternalApiController::class, 'getUserservices']); //Ruta para el consumo del api de pablooo
